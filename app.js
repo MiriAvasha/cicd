@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 function add(a, b) {
-   return a + b;
+   return a + b + 1;
 }
 
 app.get('/', (req, res) => {
